@@ -1,9 +1,11 @@
-[3D 皮肤层] skinlayers3d-forge-1.9.0-mc1.20.1.jar
 [AD钙奶🚀🚀🚀]ad_astra-forge-1.20.1-1.15.20.jar
 [AE2前置]guideme-20.1.13.jar
 [AE2扩展] ExtendedAE-1.20-1.4.6-forge.jar
 [AE2无线终端] ae2wtlib-15.3.0-forge.jar
 [AE附属通用前置]Glodium-1.20-1.5-forge.jar
+[FTB 团队] ftb-teams-forge-2001.3.1.jar
+[FTB任务] ftb-quests-forge-2001.4.14.jar
+[FTB备份2] ftbbackups2-forge-1.20-1.0.23.jar
 [FTB通用前置]ftb-library-forge-2001.2.10.jar
 [JEI物品管理器] jei-1.20.1-forge-15.20.0.114.jar
 [KUBEJS]kubejs-forge-2001.6.5-build.16.jar
@@ -31,6 +33,7 @@
 [前置]moonlight-1.20-2.16.13-forge.jar
 [前置]mutil-1.20.1-6.2.0.jar
 [前置]OctoLib-FORGE-0.5.0.1+1.20.1.jar
+[前置]polylib-forge-2000.0.3-build.143.jar
 [前置]resourcefulconfig-forge-1.20.1-2.1.3.jar
 [前置]resourcefullib-forge-1.20.1-2.1.29.jar
 [前置]Zeta-1.0-30.jar
@@ -40,8 +43,6 @@
 [地平线]DistantHorizons-2.3.4-b-1.20.1-fabric-forge.jar
 [地形改造]tectonic-forge-1.20.1-2.4.1.jar
 [夸克] Quark-4.0-462.jar
-[客户端前置]melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
-[客户端前置]sodiumoptionsapi-forge-1.0.10-1.20.1.jar
 [应用能源2] appliedenergistics2-forge-15.4.8.jar
 [建筑手杖] constructionwand-1.20.1-2.11.jar
 [开放式加载] OpenLoader-Forge-1.20.1-19.0.4.jar
@@ -52,7 +53,6 @@
 [救救我的答辩网络] smsn-forge-1.3.1-1.20.1.jar
 [更多熔炉] ironfurnaces-1.20.1-4.1.6.jar
 [更多的匠魂Pro材料]tetraextras-0.1.4-1.20.1.jar
-[更好的树叶渲染优化重铸版] CullLessLeaves-Reforged-1.20.1-1.0.5.jar
 [机械动力AE支持]appliedschematicannon-1.0.1.jar
 [机械动力] create-1.20.1-6.0.4.jar
 [机械动力：交易站点] trading_floor-forge-1.20.1-2.0.5.jar
@@ -81,7 +81,6 @@
 [统一物品]almostunified-forge-1.20.1-0.10.1.jar
 [网络音乐机] netmusic-1.1.8-forge+mc1.20.1.jar
 [网络音乐机：播放列表] net_music_list-1.5.4.jar
-[苹果皮] appleskin-forge-mc1.20.1-2.5.1.jar
 [车万女仆] touhoulittlemaid-1.4.0-forge+mc1.20.1.jar
 [轻松建筑]effortless-1.20.1-3.4.0.jar
 [连锁破坏] ftb-ultimine-forge-2001.1.7.jar
@@ -89,4 +88,5 @@
 [锦致装饰] supplementaries-1.20-3.1.39.jar
 [锻造你的烤串工具]tetradelight-beta-1.20.1-1.0.1.jar
 [镭] radium-mc1.20.1-0.12.4+git.26c9d8e.jar
+[领地]flan-1.20.1-1.11.15-forge.jar
 [高级AE] AdvancedAE-1.0.12-1.20.1.jar
