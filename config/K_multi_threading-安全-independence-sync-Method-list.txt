@@ -1,0 +1,15 @@
+// 使用//或#屏蔽
+// 这个文件是用于对单独的函数添加synchronized但是是独立的但是可以在数据后面加“:”设置组，可以有空格
+// 不同的类组是分开的哪怕同名也是互相独立的
+// 组名尽量不要使用kmt-开头可能会跟内置的数据重叠
+
+// 如何使用:
+//net/minecraft/server/level/ServerChunkCache.removeEntity(Lnet/minecraft/world/entity/Entity;)V
+
+//net/minecraft/server/level/ServerChunkCache.removeEntity(Lnet/minecraft/world/entity/Entity;)V:a
+//net/minecraft/server/level/ServerChunkCache._removeEntity()V:a
+//设置多个组
+//net/minecraft/server/level/ServerChunkCache._removeEntity()V:a
+//net/minecraft/server/level/ServerChunkCache._removeEntity()V:b
+//跟映射表格式一样simple
+

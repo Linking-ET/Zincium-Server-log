@@ -1,0 +1,8 @@
+// 使用//或#屏蔽
+// 这个文件是用于对单独的mixin函数移除接口的
+// 只能使用函数名
+
+// 如何使用:
+//com/gregtechceu/gtceu/core/mixins/LevelMixin.getTileEntity
+//跟映射表格式一样simple
+

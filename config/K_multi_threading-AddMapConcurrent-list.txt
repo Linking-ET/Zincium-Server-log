@@ -1,0 +1,15 @@
+// 使用//或#屏蔽
+// 这个文件是用于对单独的函数添加synchronized
+#类名|是否修复null|变量映射列表|函数名字(可以没有desc),映射局部变量默认false,映射全部的匹配类型默认false:下一个函数名
+#函数名字如果是,[false, true]就会直接处理所有的函数
+
+// 如何使用:
+//net/minecraft/server/level/ServerChunkCache|false
+//net/minecraft/server/level/ServerChunkCache|false||
+//net/minecraft/server/level/ServerChunkCache|false||init,true
+//net/minecraft/server/level/ServerChunkCache|false||init()V,true:
+//net/minecraft/server/level/ServerChunkCache|false||init()V,true,false:
+//net/minecraft/server/level/ServerChunkCache|false||()V:
+//net/minecraft/server/level/ServerChunkCache|false|A:b|,true
+//net/minecraft/server/level/ServerChunkCache|false|A:b|,true,false
+

@@ -1,0 +1,43 @@
+#Ranged weapons can use arrows and other ammo stored in equipped backpack.
+checkBackpackForProjectiles = true
+#Toolbox integration, allowing items to be transferred directly from equipped backpack.
+checkBackpackForToolboxItems = true
+
+#Feeder Upgrade
+[feeder_upgrade]
+	#Display a message on screen when the Feeder Upgrade automatically feeds the player.
+	displayFeederMessage = true
+	#Allow the Feeder Upgrade to use Chorus Fruit when feeding the player.
+	allowChorusFruit = false
+
+#Jetpack Upgrade
+[jetpack_upgrade]
+	#Display how much air is left in the jetpack on the HUD.
+	displayJetpackAirOverlay = true
+	#Add a gentle up-and-down motion while hovering with the jetpack.
+	jetpackHoverBobbing = true
+
+#Magnet Upgrade
+[magnet_upgrade]
+	#Prevent the Magnet Upgrade from pulling items that are being processed by a Create Encased Fan.
+	ignoreFanProcessing = true
+
+#Tool Swap Upgrade
+[tool_swap_upgrade]
+	#Prefer tools with Silk Touch when breaking blocks from the prefers Silk Touch list.
+	preferSilkTouch = false
+	#Blocks in this list will drop the block when broken with a Silk Touch tool.
+	prefersSilkTouchList = ["minecraft:grass_block", "minecraft:mycelium", "minecraft:podzol", "minecraft:clay", "minecraft:gravel", "minecraft:snow", "minecraft:glowstone", "minecraft:stone", "minecraft:sea_lantern", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:nether_gold_ore", "minecraft:nether_quartz_ore", "minecraft:gilded_blackstone", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore"]
+
+#Torch Deployer Upgrade
+[torch_deployer_upgrade]
+	#Deploys a torch when light level is at or below this level. 0 = very dark, 15 = daylight
+	#Range: 0 ~ 15
+	torchDeployerLightLevel = 2
+	#Delay between each torch placement attempt (in ticks). 20 ticks = 1 second.
+	#Range: > 0
+	torchDeployerCooldown = 20
+	#Choose the light source to check when determining block light levels.
+	#Allowed Values: BLOCK_LIGHT, SKY_LIGHT
+	torchDeployerLightSource = "BLOCK_LIGHT"
+

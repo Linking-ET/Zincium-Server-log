@@ -1,0 +1,7 @@
+// 使用//或#屏蔽
+// 这个文件是用于对单独的函数添加更安全的synchronized
+
+// 如何使用:
+//net/minecraft/server/level/ServerChunkCache.removeEntity(Lnet/minecraft/world/entity/Entity;)V
+//跟映射表格式一样simple
+
