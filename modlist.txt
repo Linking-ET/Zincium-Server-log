@@ -79,3 +79,14 @@
 [精妙核心] sophisticatedcore-1.20.1-1.2.94.1169.jar
 [精妙背包] sophisticatedbackpacks-1.20.1-3.24.7.1376.jar
 [统一物品]almostunified-forge-1.20.1-0.10.1.jar
+[网络音乐机] netmusic-1.1.8-forge+mc1.20.1.jar
+[网络音乐机：播放列表] net_music_list-1.5.4.jar
+[车万女仆] touhoulittlemaid-1.4.0-forge+mc1.20.1.jar
+[轻松建筑]effortless-1.20.1-3.4.0.jar
+[连锁破坏] ftb-ultimine-forge-2001.1.7.jar
+[铁氧体磁芯] ferritecore-6.0.1-forge.jar
+[锦致装饰] supplementaries-1.20-3.1.39.jar
+[锻造你的烤串工具]tetradelight-beta-1.20.1-1.0.1.jar
+[镭] radium-mc1.20.1-0.12.4+git.26c9d8e.jar
+[领地]flan-1.20.1-1.11.15-forge.jar
+[高级AE] AdvancedAE-1.0.12-1.20.1.jar

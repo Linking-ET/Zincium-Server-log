@@ -1,0 +1,2431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1DBD1C1569D9226A"
+	group: ""
+	icon: "create:raw_zinc"
+	id: "1DBD1C1569D9226A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35C3FCF42712DDC3"]
+			id: "5A640F0845AE73FF"
+			tasks: [{
+				id: "72A88668383324ED"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4709A99E84DCF484"
+				"06BD7EC748DB082E"
+			]
+			id: "32D49874332DF2F3"
+			subtitle: "自动化的开端"
+			tasks: [{
+				id: "4102FE2257FD880B"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "4290E410D6A25C2B"
+			tasks: [{
+				id: "0D43010DDF1723C2"
+				item: "createappliedkinetics:energy_provider"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63A0DF64814CD71D"]
+			id: "620C620FA4EB8F70"
+			tasks: [{
+				id: "4BBAA005422B42F9"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7668CE74DC6649C6"]
+			id: "3B49CE6BA3EA706E"
+			subtitle: "进入无线时代！"
+			tasks: [{
+				id: "30B3B9B5C52A9D67"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"1D676B11FAF663F2"
+				"28F7DD22D932B68A"
+			]
+			id: "6DA29CC823223F53"
+			tasks: [{
+				id: "186B1FA7DFDA9BCC"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A54D43DC45BC6AF"]
+			id: "4DB90FD19D3FF1C3"
+			tasks: [{
+				id: "72428ACC314B4213"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50D2FA4684F3670F"]
+			id: "32F17F984B306F56"
+			tasks: [{
+				id: "229DE0FD6F8D2CC2"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50D2FA4684F3670F"]
+			icon: "tetra:basic_workbench"
+			id: "00C4BF3C323A93E8"
+			tasks: [
+				{
+					id: "5242D7962713E1D3"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/stone"
+							"double/basic_hammer_right_material": "basic_hammer/stone"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "509ce28b-d82b-4058-9286-bdbee942311e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "384D2B2ED201ACAF"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Tetra之旅的开端"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09C9AFD5CDFB52DE"]
+			id: "265435EDA6CA2FF1"
+			tasks: [{
+				id: "4C820BFFAF159F62"
+				item: "create_connected:brass_gearbox"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00634CB03BD5C6E3"]
+			id: "58E37E01592F50E7"
+			size: 1.5d
+			tasks: [{
+				id: "27FBF0C48449A978"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2650434201BB966A"]
+			id: "5CE2F1F0E7D48B88"
+			tasks: [{
+				id: "666EB47908F88259"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["535D6895803C99C2"]
+			id: "3ED71DC7F43112E7"
+			tasks: [{
+				id: "08CDF9BE78B38F53"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6E246BF4AE6BDDBB"]
+			id: "0FDBA808EF94BBBA"
+			size: 1.5d
+			tasks: [{
+				id: "6BA6760250927C71"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 53.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["50D2FA4684F3670F"]
+			id: "3B2C36E42CAE3F1B"
+			tasks: [{
+				id: "6AADF712D525A9CD"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12EECEBB5F612C66"]
+			id: "3513C64B02C30921"
+			tasks: [{
+				id: "71840AAA06ED0B7B"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3513C64B02C30921"]
+			id: "535D6895803C99C2"
+			tasks: [{
+				id: "434E18C11BB47F71"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32F17F984B306F56"]
+			id: "12EECEBB5F612C66"
+			tasks: [{
+				id: "7C5F60E6EC25553D"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "50D2FA4684F3670F"
+			rewards: [
+				{
+					id: "40DCF11B45B4698E"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "04513E37FDE6AE4A"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					id: "4BBB142044FC29A2"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "你好！机械师！"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "create:raw_zinc"
+				id: "48C4BD9C4F7D87F0"
+				type: "dimension"
+			}]
+			title: "欢迎来到 锌能源：叠升"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32F17F984B306F56"]
+			id: "5F4C13287198D0E7"
+			tasks: [{
+				id: "214BA914DE4B1233"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B2C36E42CAE3F1B"]
+			id: "75AE0E67316FC3C2"
+			tasks: [{
+				id: "5475C4AEFEB52708"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B2C36E42CAE3F1B"]
+			id: "46E24BF783250989"
+			tasks: [{
+				id: "11530434C9D89383"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50D2FA4684F3670F"]
+			id: "7623005D89208549"
+			tasks: [{
+				id: "20C88056E1708F49"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B2C36E42CAE3F1B"]
+			id: "5A0554EB1EDA7A72"
+			tasks: [{
+				id: "672CA1EE1978DF9C"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79C9FE7E60181635"]
+			id: "406E131F2CC3E545"
+			tasks: [{
+				id: "3D9C3324BBD22FCE"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			title: "哈！没想到吧，锁你科技"
+			x: 40.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["406E131F2CC3E545"]
+			id: "2650434201BB966A"
+			size: 1.6d
+			tasks: [{
+				id: "1F3535CC4E8D7FD8"
+				item: "createutilities:void_casing"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2650434201BB966A"]
+			id: "0E5F19C983531772"
+			tasks: [{
+				id: "2829C78FD95A0256"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2650434201BB966A"]
+			id: "55A4F0111DD9683A"
+			tasks: [{
+				id: "7BDCC0D1FDF32F74"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2650434201BB966A"]
+			id: "553A1A983CE7AD4F"
+			tasks: [{
+				id: "64E20D8497CF4253"
+				item: "createutilities:void_battery"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E18B625395C3CB4"]
+			id: "455EFB19F6C9DA76"
+			size: 1.5d
+			tasks: [{
+				id: "130A8032AB375F1A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "准备出发"
+			x: 32.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["406E131F2CC3E545"]
+			id: "0161EE8A536264B7"
+			tasks: [{
+				id: "5B6DA536E825B688"
+				item: "createutilities:polished_amethyst"
+				type: "item"
+			}]
+			x: 40.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0161EE8A536264B7"]
+			id: "55006629695C9D5C"
+			tasks: [{
+				id: "747202779D2C051B"
+				item: "createutilities:graviton_tube"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3EB9148833C4707C"]
+			id: "6E246BF4AE6BDDBB"
+			tasks: [{
+				id: "16705693932748DD"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2650434201BB966A"]
+			id: "658BE9DCF11D4E3A"
+			size: 1.5d
+			tasks: [{
+				id: "4BA97A83539E5AEC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 46.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["04CEA7325FCE310F"]
+			id: "00634CB03BD5C6E3"
+			tasks: [{
+				id: "3EDB0857028A9ECA"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7288DE3FC08ABCFF"]
+			id: "04CEA7325FCE310F"
+			tasks: [{
+				id: "6C5C287C7BED57F6"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["049BDEEBC7465EE8"]
+			id: "3A0E412EE8CDC267"
+			tasks: [{
+				id: "29C440FA5D963E3E"
+				item: {
+					Count: 1
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["049BDEEBC7465EE8"]
+			id: "4163BEEA7293A4A7"
+			tasks: [{
+				id: "0EFD3E4D287FFC14"
+				item: "ad_astra:ti_69"
+				type: "item"
+			}]
+			title: "检查你的参数"
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6DA29CC823223F53"]
+			id: "730237294CFD7AEC"
+			tasks: [{
+				id: "6F27DEF3268B7D11"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A640F0845AE73FF"]
+			id: "1A54D43DC45BC6AF"
+			tasks: [{
+				id: "4642D425B3CA6A18"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58E37E01592F50E7"]
+			id: "049BDEEBC7465EE8"
+			tasks: [{
+				id: "4AAA00227FCD0BF1"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "吸点吗"
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6DA29CC823223F53"]
+			id: "35C3FCF42712DDC3"
+			tasks: [{
+				id: "585AECF883EBD246"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7623005D89208549"]
+			id: "1D676B11FAF663F2"
+			tasks: [{
+				id: "0A920D961B559A51"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "28F7DD22D932B68A"
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "530C8AFDBB2F2CD6"
+				type: "advancement"
+			}]
+			title: "来硬的"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["658BE9DCF11D4E3A"]
+			id: "3EB9148833C4707C"
+			tasks: [{
+				id: "2BBCDE2711A7D8AC"
+				item: "ad_astra:venus_sand"
+				type: "item"
+			}]
+			x: 48.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["35C3FCF42712DDC3"]
+			id: "6B86087B2E2D0A55"
+			tasks: [{
+				id: "2636D43160F8C476"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A640F0845AE73FF"]
+			id: "25173CA370A0BF54"
+			tasks: [{
+				id: "07B07377A23F37CF"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DB90FD19D3FF1C3"]
+			id: "68EECAABDE554217"
+			tasks: [{
+				id: "339FB9314A156F39"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68EECAABDE554217"]
+			id: "269131E4E7384E8C"
+			tasks: [{
+				id: "64A4AE7B4953A731"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["269131E4E7384E8C"]
+			id: "09C9AFD5CDFB52DE"
+			tasks: [{
+				id: "72B80222CAB69F24"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4163BEEA7293A4A7"]
+			id: "23A39565C4AD8928"
+			tasks: [{
+				id: "499BCFEC0E0A8DEF"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			title: "科幻"
+			x: 20.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4584C21A16DAE3A5"]
+			id: "6018290A84F5CC06"
+			tasks: [{
+				id: "32AB05A13CECD5BE"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["23A39565C4AD8928"]
+			id: "4584C21A16DAE3A5"
+			tasks: [{
+				id: "7200C4BE2409E889"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			title: "别窒息了"
+			x: 22.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21D3AE675B0CAA8E"]
+			id: "7288DE3FC08ABCFF"
+			tasks: [{
+				id: "1BAFC02774442CEA"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E31B117C98AC576"]
+			id: "21D3AE675B0CAA8E"
+			tasks: [{
+				id: "3C16CCDEED166F24"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DB90FD19D3FF1C3"]
+			id: "5E31B117C98AC576"
+			tasks: [{
+				id: "77A959BCD239DAD0"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DB90FD19D3FF1C3"]
+			id: "3073E968B82F4A8F"
+			tasks: [{
+				id: "738E495D631771E5"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			id: "56D4CABBBD778B7E"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				icon: "ad_astra:earth_globe"
+				id: "6ADAB2896F000AAA"
+				title: "前往地球轨道"
+				type: "dimension"
+			}]
+			x: 18.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["16886CA1FB9FCC05"]
+			id: "09D43F6CEC7AE4B7"
+			tasks: [{
+				id: "5BD533678E4DA8CC"
+				item: "ad_astra:white_flag"
+				type: "item"
+			}]
+			title: "这是个人的一小步，却是人类的一大步"
+			x: 24.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["58E37E01592F50E7"]
+			icon: "ad_astra:moon_globe"
+			id: "6AC8244D674000A7"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "1E74F9AC760F6E54"
+				type: "dimension"
+			}]
+			title: "飞往月球！"
+			x: 20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6AC8244D674000A7"]
+			id: "16886CA1FB9FCC05"
+			tasks: [{
+				id: "11FE2A839EE2CC76"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			title: "样本获取"
+			x: 22.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["09D43F6CEC7AE4B7"]
+			id: "7E290B0E51254477"
+			tasks: [{
+				id: "6C1BE1E98CFC1E9A"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "更好的材料"
+			x: 27.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7E290B0E51254477"]
+			id: "4E18B625395C3CB4"
+			tasks: [{
+				id: "0C61535DEBBCE886"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			title: "WC月球长奶酪"
+			x: 29.5d
+			y: 11.0d
+		}
+		{
+			id: "2FF36D6245E9AFC9"
+			subtitle: "找不到陨石吗？用这个！"
+			tasks: [{
+				id: "123F9DDD6EB86E00"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50D2FA4684F3670F"]
+			id: "54F9FB2771E8E88E"
+			subtitle: "没有这个玩不了AE"
+			tasks: [{
+				id: "30B45F5B1E45FC5D"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33FC0B5D27FB29B4"]
+			id: "48FF6F92C425400F"
+			tasks: [{
+				id: "67030DA19E9B24EA"
+				item: "ad_astra:mars_sand"
+				type: "item"
+			}]
+			title: "样本获取"
+			x: 35.5d
+			y: 11.0d
+		}
+		{
+			id: "3DA7B477D2D543EC"
+			tasks: [{
+				id: "2033D11FA170B8CD"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54F9FB2771E8E88E"]
+			icon: "ae2:mysterious_cube"
+			id: "6D0356048C65F39A"
+			tasks: [
+				{
+					id: "4F40F9BF7A91EDCC"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "02496595F8D9FA26"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "38EA6A7DA6ECCB35"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "6004203BFCCB6769"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "压印模板"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["455EFB19F6C9DA76"]
+			id: "33FC0B5D27FB29B4"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:venus_globe"
+				id: "1936F3ACDC32B2FA"
+				type: "dimension"
+			}]
+			title: "到达金星！"
+			x: 34.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["48FF6F92C425400F"]
+			id: "79C9FE7E60181635"
+			tasks: [{
+				id: "4D98DC6C69E5F3CF"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 37.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["54F9FB2771E8E88E"]
+			id: "779E4352AFC56F8D"
+			tasks: [{
+				id: "4C27A2A6B5AF6DD6"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"779E4352AFC56F8D"
+				"3DA7B477D2D543EC"
+			]
+			id: "44507F87E1D60213"
+			tasks: [{
+				id: "48E3D165F49C6CE5"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"41AE238E9CAAE47E"
+				"6D0356048C65F39A"
+			]
+			icon: "ae2:printed_engineering_processor"
+			id: "30997EFE2A450529"
+			tasks: [
+				{
+					id: "2A9B6DC340FA9A52"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "53FC6EA24C51D8E7"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "7AECA12D0EF3AD26"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "10689771CC318BA2"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "电路板"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "41AE238E9CAAE47E"
+			tasks: [{
+				id: "50BDA8F21FFEF345"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30997EFE2A450529"]
+			icon: "ae2:engineering_processor"
+			id: "06BD7EC748DB082E"
+			tasks: [
+				{
+					id: "169832F36F06BCBB"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "1A023A9CFF627002"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "44B486BC8E6748EE"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "处理器"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44507F87E1D60213"]
+			id: "4709A99E84DCF484"
+			tasks: [{
+				id: "4E05201B8089768C"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4709A99E84DCF484"]
+			id: "6ACE23FA32CB584D"
+			tasks: [{
+				id: "3679C866A2088CA7"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6ACE23FA32CB584D"]
+			id: "468E0B4D7B98DEFC"
+			tasks: [{
+				id: "11F4793CDCED5A21"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["468E0B4D7B98DEFC"]
+			id: "7668CE74DC6649C6"
+			tasks: [{
+				id: "3D5313CA7FE488F4"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5CA1A8E81209DE38"]
+			id: "63A0DF64814CD71D"
+			tasks: [{
+				id: "5660DC787B17E067"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63A0DF64814CD71D"]
+			id: "410889AC9483F781"
+			tasks: [{
+				id: "0E438E7F7EBCD323"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63A0DF64814CD71D"]
+			id: "3C4A7B3FBF0870C9"
+			tasks: [{
+				id: "2FAFB1E7F2340D98"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["410889AC9483F781"]
+			id: "383C25BC2E7861A4"
+			tasks: [{
+				id: "32EFC47E0BA6378B"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C4A7B3FBF0870C9"]
+			id: "30D8DF10258D8075"
+			tasks: [{
+				id: "4E0EEE00983686A1"
+				item: "expatternprovider:ex_pattern_access_part"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["410889AC9483F781"]
+			id: "7D65509ABB950351"
+			tasks: [{
+				id: "6DC9A259D8986011"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["383C25BC2E7861A4"]
+			id: "4E89CE92657BE4AE"
+			tasks: [{
+				id: "2A03618578DFC3ED"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30D8DF10258D8075"]
+			id: "36946D86BAAEB2A1"
+			tasks: [{
+				id: "2C8FCEBC1F053EF3"
+				item: "expatternprovider:wireless_ex_pat"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7D65509ABB950351"
+				"36946D86BAAEB2A1"
+				"4E89CE92657BE4AE"
+			]
+			id: "270DFD72D883875D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1DC7AF584E2B5298"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["383C25BC2E7861A4"]
+			id: "2686BD254A6BBCE1"
+			tasks: [{
+				id: "6A782D20232AD1AA"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2686BD254A6BBCE1"]
+			id: "4D3139CEA23CF720"
+			subtitle: "处理"
+			tasks: [{
+				id: "4C88840438ADBA7B"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D3139CEA23CF720"]
+			id: "01FA9B35D006714C"
+			tasks: [{
+				id: "7830264CE1B20114"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01FA9B35D006714C"]
+			id: "29FA8A363406DFF0"
+			tasks: [{
+				id: "0C0435E9D72E81CF"
+				item: "advanced_ae:adv_pattern_provider"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2686BD254A6BBCE1"]
+			id: "3E9109FB7CE88D1C"
+			subtitle: "合成-切石-锻造"
+			tasks: [{
+				id: "38D5675B5E037399"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E9109FB7CE88D1C"]
+			id: "710BC8F1F4E08A12"
+			tasks: [{
+				id: "4DE5BEF0360BF5EB"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06BD7EC748DB082E"]
+			id: "517A402DC8140B87"
+			subtitle: "超级存储！！！"
+			tasks: [{
+				id: "3A50747F26F88E91"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06BD7EC748DB082E"]
+			id: "38380CBFB410BB09"
+			tasks: [{
+				id: "6A552D06EB819BA9"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38380CBFB410BB09"]
+			id: "5B7890DAD5BFA241"
+			tasks: [{
+				id: "7AAA0F78085C1843"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B7890DAD5BFA241"]
+			id: "02530EB188484C47"
+			tasks: [{
+				id: "0DF96DBDC5AECA14"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["02530EB188484C47"]
+			id: "63B8BF5BD7ED0DC2"
+			tasks: [{
+				id: "0E795461D72666CD"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63B8BF5BD7ED0DC2"]
+			id: "247CB43808843643"
+			tasks: [{
+				id: "5DA3ED00F7C2D277"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["517A402DC8140B87"]
+			id: "596141F6EB9CD839"
+			subtitle: "存物品用这个"
+			tasks: [{
+				id: "568FE7EE1FDBCC6A"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["517A402DC8140B87"]
+			id: "687798CAF3F33010"
+			subtitle: "存流体用这个"
+			tasks: [{
+				id: "665C42C461C3A7EB"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["32D49874332DF2F3"]
+			id: "26EB387BD57CF407"
+			subtitle: "CPU"
+			tasks: [{
+				id: "7AEA2A877A2F06F8"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26EB387BD57CF407"]
+			id: "0AAE7ED0C6305F8E"
+			subtitle: "同时进行更多合成"
+			tasks: [{
+				id: "11AD3A2F14F291D4"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"26EB387BD57CF407"
+				"38380CBFB410BB09"
+			]
+			id: "1986C33F09AD45CA"
+			subtitle: "最多合成1024个物品"
+			tasks: [{
+				id: "3C740EB1DEED0DDC"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"26EB387BD57CF407"
+				"5B7890DAD5BFA241"
+			]
+			id: "4F3071CC0F87C132"
+			subtitle: "最多合成4096个物品"
+			tasks: [{
+				id: "2C98154C304E4346"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"26EB387BD57CF407"
+				"02530EB188484C47"
+			]
+			id: "3F73BBC83948569A"
+			subtitle: "最多合成16384个物品"
+			tasks: [{
+				id: "29DF49C99197DF28"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"26EB387BD57CF407"
+				"63B8BF5BD7ED0DC2"
+			]
+			id: "283321C8CA430AC9"
+			subtitle: "最多合成65536个物品"
+			tasks: [{
+				id: "468FD96083BC250B"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"26EB387BD57CF407"
+				"247CB43808843643"
+			]
+			id: "24FF39106667FDA8"
+			subtitle: "最多合成262144个物品"
+			tasks: [{
+				id: "072C5F0826FAF352"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24FF39106667FDA8"]
+			hide_until_deps_complete: true
+			id: "0859B8FF2262E8E6"
+			subtitle: "如何正确搭建一个CPU？"
+			tasks: [{
+				id: "0EDB63F69AB2E006"
+				title: "小提示"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2FF36D6245E9AFC9"]
+			hide_until_deps_complete: true
+			id: "4F75238DC730F2E2"
+			subtitle: "如果用陨石罗盘都找不到的话。。。"
+			tasks: [{
+				id: "19A308F039228111"
+				title: "小提示"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D3139CEA23CF720"]
+			hide_until_deps_complete: true
+			id: "613592CBC4192387"
+			subtitle: "如何使用样板供应器？"
+			tasks: [{
+				id: "674FB01768C8D60D"
+				title: "小提示"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6ACE23FA32CB584D"]
+			id: "5CA1A8E81209DE38"
+			tasks: [{
+				id: "7245BE4C3D7DE552"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B49CE6BA3EA706E"]
+			id: "6643F44E65552048"
+			subtitle: "一对多！"
+			tasks: [{
+				id: "686F4962DCF0A0F0"
+				item: "expatternprovider:wireless_hub"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["517A402DC8140B87"]
+			id: "1C6D63419E48403D"
+			subtitle: "可以塞下20个存储元件！"
+			tasks: [{
+				id: "3C88994606713994"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41AE238E9CAAE47E"]
+			id: "6D5FFD905AE56B82"
+			subtitle: "多线程处理！"
+			tasks: [{
+				id: "5CAAEFDCA946B92E"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D0356048C65F39A"]
+			description: [" 别忘了每种留一个"]
+			id: "3058366913E9346A"
+			subtitle: "精简处理！"
+			tasks: [{
+				id: "6697EFE3CDE61E89"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02530EB188484C47"]
+			id: "4EBA52ADADB0351C"
+			tasks: [{
+				id: "6E093FB142948933"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02530EB188484C47"]
+			id: "7746909343209235"
+			tasks: [{
+				id: "02B67ADE27D6BA97"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6ACE23FA32CB584D"]
+			id: "0576135512882DD6"
+			subtitle: "破坏面前的方块并存储至面板所在网络"
+			tasks: [{
+				id: "0B9DE7A0E53C82D4"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6ACE23FA32CB584D"]
+			id: "200940635890BA1F"
+			subtitle: "放置由面板网络输入的物品（无法自动放置网络中的物品）"
+			tasks: [{
+				id: "0136DC4C697C384D"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["200940635890BA1F"]
+			id: "7AE175CE707C29B6"
+			subtitle: "升级版！可自动放置网络中的物品！"
+			tasks: [{
+				id: "111C79E7DBC94123"
+				item: "expatternprovider:active_formation_plane"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DA7B477D2D543EC"]
+			id: "42CEDCE4EFD32458"
+			subtitle: "容量更多！"
+			tasks: [{
+				id: "4D4B10E31CDD6017"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4709A99E84DCF484"]
+			id: "7D12AE22C5177F3B"
+			tasks: [{
+				id: "368E4EE7D867C9A9"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D12AE22C5177F3B"]
+			id: "5785A68EDD7BE71C"
+			subtitle: "更高级的合成方式！"
+			tasks: [{
+				id: "275986A1D80E60D1"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D12AE22C5177F3B"]
+			id: "3696200682C5F2D4"
+			tasks: [{
+				id: "7B042C3CA5A3FE54"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3696200682C5F2D4"]
+			hide_dependency_lines: true
+			id: "17B4967CC215D0B9"
+			tasks: [{
+				id: "47F961FC9D0674E4"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"270DFD72D883875D"
+				"17B4967CC215D0B9"
+			]
+			id: "7633646302CE6F6B"
+			subtitle: "无线距离！"
+			tasks: [{
+				id: "2B5CA33C845FBA16"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["270DFD72D883875D"]
+			description: ["可开启多种吸取物品的模式"]
+			id: "5869A8E61B37AE67"
+			subtitle: "万磁王！"
+			tasks: [{
+				id: "7BF6083A7F9146F7"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17B4967CC215D0B9"]
+			description: [
+				"■ ■ ■"
+				"■ □ ■"
+				"■ ■ ■    ←量子环需要这样摆放"
+				""
+				" · 最多传输32频道"
+				""
+				" · 量子环的两侧都需要被加载"
+				""
+				" · 需放入堆叠的两个量子奇点之一（不可以随便放"
+			]
+			id: "70C2C848C4AF222E"
+			subtitle: "不限距离与维度！！"
+			tasks: [
+				{
+					count: 8L
+					id: "13F72F1D87EE0B83"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "200BFB60F6F8FD3E"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "量子传输！"
+			x: -18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7D12AE22C5177F3B"]
+			id: "23B42D4D1B07A885"
+			tasks: [{
+				id: "1F469E10802336AE"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23B42D4D1B07A885"]
+			id: "48F42E8308C03912"
+			tasks: [
+				{
+					id: "5F4A88603A4831BC"
+					item: "ae2:red_paint_ball"
+					type: "item"
+				}
+				{
+					id: "3DF22E56305584A8"
+					item: "ae2:purple_paint_ball"
+					type: "item"
+				}
+				{
+					id: "050FD7D0D867D93E"
+					item: "ae2:blue_paint_ball"
+					type: "item"
+				}
+			]
+			title: "染色球"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48F42E8308C03912"]
+			id: "2F106C1964C75494"
+			tasks: [
+				{
+					id: "5AB8CF29F46F0FDD"
+					item: "ae2:red_lumen_paint_ball"
+					type: "item"
+				}
+				{
+					id: "14C7307AF7F8DF36"
+					item: "ae2:purple_lumen_paint_ball"
+					type: "item"
+				}
+				{
+					id: "3E0419E68F92AFC7"
+					item: "ae2:blue_lumen_paint_ball"
+					type: "item"
+				}
+			]
+			title: "光通球"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F106C1964C75494"]
+			id: "6CB228468EA6C220"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "人称大分子装配"
+			tasks: [
+				{
+					count: 68L
+					id: "68A9C3378CA02039"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "7A450EB2612F5A1F"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7C765F5001F4CC45"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "6F3BB18317017BD8"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "71940F8310DC52E7"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			title: "装配矩阵！！！"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5EFE62FBBCBB4CA6"
+				"247CB43808843643"
+			]
+			id: "3DDD01013B70AC5F"
+			tasks: [{
+				id: "3FDD6E817E9D7236"
+				item: "advanced_ae:quantum_storage_component"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3058366913E9346A"
+				"020D28BC932384F7"
+			]
+			id: "2C3D1850D0E84C65"
+			tasks: [{
+				id: "3F7E16F62BC352F9"
+				item: "advanced_ae:printed_quantum_processor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2C3D1850D0E84C65"]
+			id: "5EFE62FBBCBB4CA6"
+			tasks: [{
+				id: "043E33A3B73C06D1"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3696200682C5F2D4"]
+			id: "76659379EB6E2540"
+			tasks: [{
+				id: "7808058573051A15"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["76659379EB6E2540"]
+			id: "7AC634C48201D1F4"
+			tasks: [
+				{
+					id: "49257A5FE6278BE0"
+					item: "advanced_ae:quantum_infused_dust"
+					type: "item"
+				}
+				{
+					id: "3F1278B6F43F2682"
+					item: "advanced_ae:quantum_infusion_bucket"
+					type: "item"
+				}
+			]
+			title: "液态量子！"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"76659379EB6E2540"
+				"7AC634C48201D1F4"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "020D28BC932384F7"
+			tasks: [{
+				id: "1AC2C5D96DD055E1"
+				item: "advanced_ae:quantum_alloy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020D28BC932384F7"]
+			hide_dependency_lines: false
+			id: "7919E4D601DA7203"
+			tasks: [{
+				id: "029EB5EF9BF45295"
+				item: "advanced_ae:quantum_alloy_plate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7919E4D601DA7203"]
+			id: "1CFE02F53196E6E5"
+			size: 2.0d
+			tasks: [{
+				id: "1B4E775C296B618A"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7919E4D601DA7203"]
+			id: "676E0C4BBD4FCBA4"
+			size: 2.0d
+			tasks: [{
+				id: "6035EA959C14437E"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7919E4D601DA7203"]
+			id: "7E0840A2C2486844"
+			size: 2.0d
+			tasks: [{
+				id: "3370680B907EAE88"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7919E4D601DA7203"]
+			id: "576FBE6377A67A54"
+			size: 2.0d
+			tasks: [{
+				id: "46E69499E001B4B6"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3696200682C5F2D4"]
+			id: "7544337CEB126C9F"
+			tasks: [{
+				id: "48EE54E674E966BD"
+				item: "advanced_ae:quantum_unit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7544337CEB126C9F"]
+			id: "074A1095E44D0FF2"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "人称大CPU"
+			tasks: [
+				{
+					id: "59E7737B1BA54D90"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "7CF0F0E83F44F201"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+				{
+					id: "2775ABE47B0EBF29"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "41A5E679D0B2782A"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+				{
+					count: 120L
+					id: "619B0D6A95AA56F6"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+				{
+					count: 218L
+					id: "0DB221C93808C443"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+			]
+			title: "量子计算机！！！"
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7919E4D601DA7203"]
+			id: "5837FF5CBC34856A"
+			tasks: [{
+				id: "65815810083980DF"
+				item: "advanced_ae:quantum_upgrade_base"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5837FF5CBC34856A"]
+			id: "1D4DC5A466872F12"
+			tasks: [
+				{
+					id: "5E73AA1B066478B4"
+					item: "advanced_ae:flight_card"
+					type: "item"
+				}
+				{
+					id: "32680D6082A44A28"
+					item: "advanced_ae:night_vision_card"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F312369657891B8"
+					item: { Count: 4, id: "advanced_ae:recharging_card" }
+					type: "item"
+				}
+				{
+					id: "69AC613AD69C5C2D"
+					item: "advanced_ae:reach_card"
+					type: "item"
+				}
+				{
+					id: "381CE1577D9F1A26"
+					item: "advanced_ae:attack_speed_card"
+					type: "item"
+				}
+				{
+					id: "2340AC6F98A64CF6"
+					item: "advanced_ae:strength_card"
+					type: "item"
+				}
+				{
+					id: "568E50C0289BF27D"
+					item: "advanced_ae:regeneration_card"
+					type: "item"
+				}
+				{
+					id: "30F1080F321B8880"
+					item: "advanced_ae:hp_buffer_card"
+					type: "item"
+				}
+				{
+					id: "0A34F4A84FA33A35"
+					item: "advanced_ae:evasion_card"
+					type: "item"
+				}
+			]
+			title: "实用の卡"
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5837FF5CBC34856A"]
+			id: "1D45ADFCF885A83D"
+			tasks: [
+				{
+					id: "7F5919D83D40D3CD"
+					item: "advanced_ae:walk_speed_card"
+					type: "item"
+				}
+				{
+					id: "70B89D6B1754B2F8"
+					item: "advanced_ae:sprint_speed_card"
+					type: "item"
+				}
+				{
+					id: "26AACB4A3AAFE925"
+					item: "advanced_ae:step_assist_card"
+					type: "item"
+				}
+				{
+					id: "70299929CDBFFCAF"
+					item: "advanced_ae:jump_height_card"
+					type: "item"
+				}
+				{
+					id: "18BD6A71EC752BD6"
+					item: "advanced_ae:lava_immunity_card"
+					type: "item"
+				}
+				{
+					id: "002C954B1E722366"
+					item: "advanced_ae:water_breathing_card"
+					type: "item"
+				}
+				{
+					id: "6FF2CA342E30DFEB"
+					item: "advanced_ae:swim_speed_card"
+					type: "item"
+				}
+				{
+					id: "77ADC7EC2595F043"
+					item: "advanced_ae:luck_card"
+					type: "item"
+				}
+			]
+			title: "有用の卡"
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5837FF5CBC34856A"]
+			id: "7A830C4BB05C2A14"
+			tasks: [
+				{
+					id: "2FDBC39D49797F7D"
+					item: "advanced_ae:magnet_card"
+					type: "item"
+				}
+				{
+					id: "1287214EF27404DD"
+					item: "advanced_ae:auto_stock_card"
+					type: "item"
+				}
+				{
+					id: "20762D9EA3D7A18B"
+					item: "advanced_ae:auto_feeding_card"
+					type: "item"
+				}
+				{
+					id: "3A657394BC54189D"
+					item: "advanced_ae:portable_workbench_card"
+					type: "item"
+				}
+				{
+					id: "7D887AB5EB873F22"
+					item: "advanced_ae:pick_craft_card"
+					type: "item"
+				}
+			]
+			title: "各种用处の卡"
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7A830C4BB05C2A14"
+				"1D45ADFCF885A83D"
+				"1D4DC5A466872F12"
+			]
+			description: ["你无敌了孩子"]
+			hide_until_deps_complete: true
+			id: "58931DECDE4C9796"
+			tasks: [{
+				id: "6A56348B9779C46E"
+				title: "你？"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["00C4BF3C323A93E8"]
+			id: "7201CC2AB12E27E0"
+			tasks: [{
+				id: "62650F7CD847742B"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "7faf1568-c00d-470c-ba44-a56458d4de30"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E7EFAEFBB427061"]
+			id: "440C98387CEA11BC"
+			tasks: [{
+				id: "15C329F41E5ECC57"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "b856970d-240f-4622-adc5-816b441ce3ca"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7201CC2AB12E27E0"]
+			id: "4E7EFAEFBB427061"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3C2EB8F97E573A74"
+				type: "dimension"
+			}]
+			title: "下地狱罢！"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"440C98387CEA11BC"
+				"6743BBEB6D884F2A"
+			]
+			id: "5029BE511AF3411D"
+			tasks: [
+				{
+					id: "56131ADDF502D033"
+					structure: "tetra:regular_ruin"
+					type: "structure"
+				}
+				{
+					id: "48EBF11F3C777EC2"
+					structure: "tetra:extractor_ruin"
+					type: "structure"
+				}
+			]
+			title: "探索遗迹！"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["440C98387CEA11BC"]
+			description: ["使用羊角锤（此版本叫做爪锤）与锤子来开启Tetra遗迹的板条箱与门"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6743BBEB6D884F2A"
+			tasks: [{
+				id: "04D645A0FAD24F18"
+				title: "小提示"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5029BE511AF3411D"]
+			id: "06EF261F88307EF9"
+			subtitle: "使用精准采集把它们带回家！"
+			tasks: [
+				{
+					id: "5D80CC5A9099BD7D"
+					item: "tetra:forged_workbench"
+					type: "item"
+				}
+				{
+					id: "1569A30C6DDAA223"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+			]
+			title: "锻造套装！"
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5029BE511AF3411D"]
+			id: "21C4C3D075ABF4FB"
+			tasks: [{
+				id: "4F07D5911266D1A1"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "26207ef8-a969-4453-a3a3-21b8cfe8530a"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["21C4C3D075ABF4FB"]
+			id: "3E135499663FA4E2"
+			tasks: [{
+				id: "70F0DE58004C9ED1"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "b8c2e1ca-175a-4e7b-8bf2-ef6b8d4dad9e"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3E135499663FA4E2"]
+			id: "166E0471B3368463"
+			tasks: [{
+				id: "02A3F39578868640"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/binding": "double/socket"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						"double/socket_material": "double_socket/socket_nether_star"
+						honing_progress: 665
+						id: "d1ef7946-1d1b-42e9-ac95-84924f0a6336"
+					}
+				}
+				type: "item"
+			}]
+			title: "最终之锤！"
+			x: -0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["5029BE511AF3411D"]
+			id: "5423606404AB65EE"
+			subtitle: "燃烧室可以增加锻造等级"
+			tasks: [{
+				id: "24DDC684005D9FA2"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5029BE511AF3411D"]
+			id: "547520557DB57A63"
+			subtitle: "平面稳定器可以增加工具的属性"
+			tasks: [{
+				id: "5A2EF7BA6197D12A"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7201CC2AB12E27E0"]
+			id: "7C48FD0E67E8FD68"
+			subtitle: "使用短剑可以给工具裹柄"
+			tasks: [{
+				id: "676D975DC84DFE09"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "7231a08c-74cd-4d50-9782-d21e66f53777"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/short_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/short_blade_material": "short_blade/iron"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+	]
+	title: "开始"
+}
